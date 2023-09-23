@@ -34,15 +34,15 @@ The project utilizes a dataset stored in the `_data` folder, specifically the `c
    ```bash
 	git pull
 	```
-6. Open Visual Studio code and open the folder: File > Open Folder and select `PATH_TO_LOCAL_UCB_MDSv4_ML` where `PATH_TO_LOCAL_UCB_MDSv4_ML` is the path where your cloned repository is.
-7. Comment the following lines
+6. Open Visual Studio code and open the folder: File > Open Folder and select `${PATH_TO_LOCAL_UCB_MDSv4_ML}`, replace `${PATH_TO_LOCAL_UCB_MDSv4_ML}` with the path where your cloned repository is.
+7. In the file `MDSv4_ML_P2_NLP.ipynb` make the following changes:
    ```python
     #from google.colab import drive
 	#drive.mount('/content/drive')
    ```	
-8. Update this line of code with the actual path to file `complaints.json` where `PATH_TO_LOCAL_UCB_MDSv4_ML
+8. In the file `MDSv4_ML_P2_NLP.ipynb` update this line of code with the actual path to file `complaints.json`
    ```python
-	data_file = "PATH_TO_LOCAL_UCB_MDSv4_ML\Sub Proyecto 2\P2_Proyecto - NLP Clasificacion Automatica de Tickets\_data\complaints.json"
+	data_file = "${PATH_TO_LOCAL_UCB_MDSv4_ML}\Sub Proyecto 2\P2_Proyecto - NLP Clasificacion Automatica de Tickets\_data\complaints.json"
 	```
-9. Run the notebook `PATH_TO_LOCAL_UCB_MDSv4_ML\Sub Proyecto 2\P2_Proyecto - NLP Clasificacion Automatica de Tickets\MDSv4_ML_P2_NLP.ipynb`
+9. Run the notebook `${PATH_TO_LOCAL_UCB_MDSv4_ML}\Sub Proyecto 2\P2_Proyecto - NLP Clasificacion Automatica de Tickets\MDSv4_ML_P2_NLP.ipynb`
 
